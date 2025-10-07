@@ -1,6 +1,6 @@
 # Simple Backend
 
-A simple Express.js backend server designed for learning Azure deployment.
+A simple Express.js backend server designed for learning Cloud Computing deployment.
 
 ## 🚀 Quick Start
 
@@ -27,7 +27,7 @@ A simple Express.js backend server designed for learning Azure deployment.
 
 ## ☁️ Azure Deployment
 
-This project is configured for Azure App Service deployment with:
+This project is configured for Cloud Computing Service deployment with:
 
 - Environment-based port handling (`process.env.PORT`)
 - Proper `start` script in package.json

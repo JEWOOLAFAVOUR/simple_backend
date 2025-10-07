@@ -43,7 +43,7 @@ app.get("/", (req, res) => {
         <body>
             <div class="container">
                 <h1>🚀 Simple Backend API</h1>
-                <p>Welcome to your simple backend server! This is perfect for learning Azure deployment.</p>
+                <p>Welcome to your simple backend server! This is perfect for learning cloud deployment.</p>
                 
                 <h3>Available Endpoints:</h3>
                 <div class="endpoint">
@@ -60,7 +60,7 @@ app.get("/", (req, res) => {
                 </div>
                 
                 <p style="text-align: center; margin-top: 30px;">
-                    Ready for Azure deployment! 🌟
+                    Ready for cloud deployment! 🌟
                 </p>
             </div>
         </body>
@@ -82,7 +82,7 @@ app.get("/api/info", (req, res) => {
     ],
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV || "development",
-    ready_for_azure: true,
+    ready_for_cloud: true,
   });
 });
 
@@ -141,7 +141,7 @@ app.get("/about", (req, res) => {
                 
                 <div class="feature">
                     <h3>🎯 Purpose</h3>
-                    <p>This is a simple Express.js backend designed for learning Azure deployment. It's lightweight, easy to understand, and perfect for getting started with cloud deployment.</p>
+                    <p>This is a simple Express.js backend designed for learning cloud deployment. It's lightweight, easy to understand, and perfect for getting started with cloud deployment.</p>
                 </div>
                 
                 <div class="feature">
@@ -155,12 +155,12 @@ app.get("/about", (req, res) => {
                 
                 <div class="feature">
                     <h3>☁️ Deployment Ready</h3>
-                    <p>This application is configured to work seamlessly with Azure App Service. The PORT environment variable is handled automatically for cloud deployment.</p>
+                    <p>This application is configured to work seamlessly with cloud platforms. The PORT environment variable is handled automatically for cloud deployment.</p>
                 </div>
                 
                 <div class="feature">
                     <h3>👨‍💻 Author</h3>
-                    <p>Created by Jewoola Favour for backend learning and Azure deployment practice.</p>
+                    <p>Created by Jewoola Favour for backend learning and cloud deployment practice.</p>
                 </div>
                 
                 <a href="/" class="back-link">← Back to Home</a>
@@ -266,7 +266,7 @@ app.get("/dashboard", (req, res) => {
                     <div class="stat-card">
                         <div class="stat-number">⚡</div>
                         <h3>Performance</h3>
-                        <p>Optimized for Azure</p>
+                        <p>Optimized for Cloud</p>
                     </div>
                     
                     <div class="stat-card">
@@ -289,12 +289,12 @@ app.get("/dashboard", (req, res) => {
                 
                 <div class="info-section">
                     <h3>📈 Quick Stats</h3>
-                    <p>This dashboard shows real-time information about your simple backend server. Perfect for monitoring your Azure deployment!</p>
+                    <p>This dashboard shows real-time information about your simple backend server. Perfect for monitoring your cloud deployment!</p>
                     <ul>
                         <li>✅ Express.js server running smoothly</li>
                         <li>✅ All endpoints responding correctly</li>
                         <li>✅ Ready for production deployment</li>
-                        <li>✅ Azure App Service compatible</li>
+                        <li>✅ Cloud platform compatible</li>
                     </ul>
                 </div>
                 
@@ -309,5 +309,5 @@ app.get("/dashboard", (req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 Server is running on port ${PORT}`);
   console.log(`📱 Local: http://localhost:${PORT}`);
-  console.log(`☁️  Ready for Azure deployment!`);
+  console.log(`☁️  Ready for cloud deployment!`);
 });
